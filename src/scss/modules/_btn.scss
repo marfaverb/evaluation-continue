@@ -1,0 +1,25 @@
+.btn-primary {
+  display: flex;
+  padding: 16px 20px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  border: none;
+  font-family: Montserrat, sans-serif;
+  font-size: 1rem;
+}
+
+.default {
+  background-color: var(--color-primary900);
+  color: var(--color-primary50);
+}
+
+.hover {
+  background-color: var(--color-primary800);
+  color: var(--color-primary0);
+}
+
+.disabled {
+  background-color: var(--color-primary100);
+  color: var(--color-primary50);
+}
